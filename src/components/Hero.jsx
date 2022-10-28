@@ -1,4 +1,3 @@
-import { Link } from "react-scroll";
 export default function Example() {
     return (
       <div name="Home" className="relative overflow-hidden w-full h-screen py-2 px-2 bg-gradient-to-b from-black to-red-400 text-white">
