@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import { BiAlignLeft, BiCaretLeftCircle, BiCartAlt, BiChat, BiCommentCheck, BiHomeAlt, BiMap, BiMenuAltLeft, BiNews, BiSupport } from "react-icons/bi";
+import { Link } from 'react-scroll';
 
 
 const NavBar = () => {
