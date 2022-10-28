@@ -24,7 +24,8 @@ const [nav, setNav] = useState(false)
 
         <nav>
             <ul className='flex flex-col p-14 text-gray-800'>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiHomeAlt size={30} className='mr-4 text-red-300' />Home</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiHomeAlt size={30} className='mr-4 text-red-300' />
+                  <a duration="500"/>Home</li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />Learn More</li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiAlignLeft size={30} className='mr-4  text-red-300' />Our Selection</li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiCartAlt size={30} className='mr-4  text-red-300' />Make An Order</li>
