@@ -26,13 +26,16 @@ const [nav, setNav] = useState(false)
             <ul className='flex flex-col p-14 text-gray-800'>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiHomeAlt size={30} className='mr-4 text-red-300' />
                     <a href="#Home">Home</a></li>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />Learn More</li>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiAlignLeft size={30} className='mr-4  text-red-300' />Our Selection</li>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiCartAlt size={30} className='mr-4  text-red-300' />Make An Order</li>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiChat size={30} className='mr-4 text-red-300' />Message Us</li>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiCommentCheck size={30} className='mr-4  text-red-300' />Connect</li>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiMap size={30} className='mr-4  text-red-300' />Directions</li>
-                <li className='text-2xl py-4 pb-5 flex text-white'><BiSupport size={30} className='mr-4  text-red-300' />Contact</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />
+                    <a href="#Learn-More">Learn More</a></li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiCartAlt size={30} className='mr-4  text-red-300' />
+                    <a href="https://drizly.com/cindys-wine-and-spirits/s4712">Make An Order</a></li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiCommentCheck size={30} className='mr-4  text-red-300' />
+                    <a href="">Connect</a></li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiMap size={30} className='mr-4  text-red-300' />
+                    <a href="https://goo.gl/maps/8Lpo34KA7kgbJgTj9">Directions</a></li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiSupport size={30} className='mr-4  text-red-300' />
+                    <a href="#Contact">Contact</a></li>
 
             </ul>
         </nav>
