@@ -1,14 +1,14 @@
 export default function Example() {
     return (
       <div className="relative overflow-hidden w-full h-screen py-2 px-2 bg-gradient-to-b from-black to-red-400 text-white">
-        <div className="pt-5 pb-20 sm:pt-24 sm:pb-20 lg:pt-40 lg:pb-20">
+        <div className="pt-4 pb-20 sm:pt-14 sm:pb-20 lg:pt-25 lg:pb-20">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
-              <h1 className="font text-5xl font-bold tracking-tight text-white sm:text-8xl">Cindy's <span className="text-red-600">
+              <h1 className="font text-4xl font-bold tracking-tight text-white sm:text-6xl">Cindy's <span className="text-red-600">
                 <br></br>Wine</span></h1>
-              <h1 className="font text-5xl font-bold tracking-tight text-white sm:text-8xl">And <span className="text-red-600">
+              <h1 className="font text-4xl font-bold tracking-tight text-red-600 sm:text-6xl">And <span className="text-red-600">
                   Spirits</span></h1>
-              <p className="mt-4 text-2xl text-white">
+              <p className="mt-4 text-1xl text-white">
               We pride ourselves in being voted #1 Best Wine and Liquor store on the Connecticut Shore line!
 
               </p>
