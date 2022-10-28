@@ -1,6 +1,6 @@
 export default function Example() {
     return (
-      <div id="#Home" className="relative overflow-hidden w-full h-screen py-2 px-2 bg-gradient-to-b from-black to-red-400 text-white">
+      <div id="Home" className="relative overflow-hidden w-full h-screen py-2 px-2 bg-gradient-to-b from-black to-red-400 text-white">
         <div className="sm:pt-16 sm:pb-8 lg:pt-40 lg:pb-8">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-8 lg:px-10">
             <div className="sm:max-w-lg">
