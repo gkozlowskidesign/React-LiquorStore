@@ -16,7 +16,7 @@ const [nav, setNav] = useState(false)
       
 
       {/* Side drawer menu */}
-      <div className={nav ? 'fixed top-0 left-0 w-[330px] h-screen bg-gradient-to-b from-black to-red-500 z-10 duration-300 rounded-xl' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-black z-10 duration-300' }>
+      <div className={nav ? 'top-0 left-0 w-[330px] h-screen bg-gradient-to-b from-black to-red-500 z-10 duration-300 rounded-xl' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-black z-10 duration-300' }>
         <BiCaretLeftCircle
             onClick={()=> setNav(!nav)}
           size={40}
@@ -25,7 +25,7 @@ const [nav, setNav] = useState(false)
         <nav>
             <ul className='flex flex-col p-14 text-gray-800'>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiHomeAlt size={30} className='mr-4 text-red-300' />
-                    <a href="Home">Home</a></li>
+                    <a href="#Home">Home</a></li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />Learn More</li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiAlignLeft size={30} className='mr-4  text-red-300' />Our Selection</li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiCartAlt size={30} className='mr-4  text-red-300' />Make An Order</li>
