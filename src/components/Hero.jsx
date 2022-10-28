@@ -55,7 +55,7 @@ export default function Example() {
                           />
                         </div>
 
-                        <br/><br/>
+                        <br/>
                         <div className="h-84 w-64 overflow-hidden rounded-xl">
                            
                           
