@@ -2,48 +2,45 @@ import React, {useState} from 'react';
 import { BiAlignLeft, BiCaretLeftCircle, BiCartAlt, BiChat, BiCommentCheck, BiHomeAlt, BiMap, BiMenuAltLeft, BiNews, BiSupport } from "react-icons/bi";
 
 
-const NavBar = () => {
+const Navbar = () => {
+const [nav, setNav] = useState(false)
 
-const [nav, setNav] = useState(false);
+  return (
+    <div className='bg-black max-w-[2640px] mx-auto flex justify-between items-center p-10'>
+      {/* Left side */}
+      <div className='flex items-center'>
+        <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-300'>
+          <BiMenuAltLeft size={50} />
+        </div>
+      </div>
+      
 
-const links =[
-    {
-        id: 1,
-        link: "home",
-    },
- 
-];
+      {/* Side drawer menu */}
+      <div className={nav ? 'fixed top-0 left-0 w-[330px] h-screen bg-gradient-to-b from-black to-red-500 z-10 duration-300 rounded-xl' : 'fixed top-0 left-[-100%] w-[300px] h-screen bg-black z-10 duration-300' }>
+        <BiCaretLeftCircle
+            onClick={()=> setNav(!nav)}
+          size={40}
+          className='absolute right-6 top-4 cursor-pointer  text-red-300'/>
 
- return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-white bg-black fixed">
-        <div><h1 className="text-4xl font-signature ml-2">GKozlowski</h1></div>
+        <nav>
+            <ul className='flex flex-col p-14 text-gray-800'>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiHomeAlt size={30} className='mr-4 text-red-300' />
+                    <a href="Home">Home</a></li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />Learn More</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiAlignLeft size={30} className='mr-4  text-red-300' />Our Selection</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiCartAlt size={30} className='mr-4  text-red-300' />Make An Order</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiChat size={30} className='mr-4 text-red-300' />Message Us</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiCommentCheck size={30} className='mr-4  text-red-300' />Connect</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiMap size={30} className='mr-4  text-red-300' />Directions</li>
+                <li className='text-2xl py-4 pb-5 flex text-white'><BiSupport size={30} className='mr-4  text-red-300' />Contact</li>
 
-        <ul className="hidden md:flex">
-        {links.map(({id, link}) => (
-            <li key={id} 
-            className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105 duration-200"
-            >
-            <Link to={link}>{link}</Link>
-            </li>
-        ))}
-        </ul>
-
-        <div onClick={() => setNav(!nav)} className="cursor-pointer pr-4 z-10 text-gray-500 md:hidden">{nav ? <BiCaretLeftCircle size={20} /> : <BiMenuAltLeft size={20} />}</div>
-
-        {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 text-gray-500">
-        {links.map(({id, link}) => (<li key={id} className="px-4 cursor-pointer capitalize py-6 text-3xl">
-
-        <Link onClick={() => setNav(!nav)} to={link}>{link}</Link>
-
-            </li>
-            ))}
-        <li className="px-4 cursor-pointer capitalize py-6 text-3xl">home</li>
-        </ul> 
-        )}
-
+            </ul>
+        </nav>
+      </div>
     </div>
   );
 };
+
+export default Navbar;
 
 export default NavBar
