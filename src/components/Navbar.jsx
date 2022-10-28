@@ -20,7 +20,7 @@ const [nav, setNav] = useState(false)
         <BiCaretLeftCircle
             onClick={()=> setNav(!nav)}
           size={40}
-          className='right-6 top-4 cursor-pointer  text-red-300'/>
+          className='absolute right-6 top-4 cursor-pointer  text-red-300'/>
 
         <nav>
             <ul className='flex flex-col p-14 text-gray-800'>
