@@ -26,15 +26,16 @@ const features = [
             On September 8th 2022 we closed our doors at 688 Boston Post Rd, Westbrook Connecticut and moved to our newly built store location at 1238 Boston Post Rd, Westbrook Connecticut. 
             Our new location opened its doors on September 13th 2022 in the heart of Westbrook right down the street from the green and in our beautiful new shop. </p>
 
-              </div>
-              
-
-              <dl className="grid grid-cols-1 gap-x-6 gap-y-5 sm:grid-cols-2 sm:gap-y-5 lg:gap-x-8">
-              <img
+           <img
               src="https://d1ynl4hb5mx7r8.cloudfront.net/wp-content/uploads/2021/08/11114624/Drizly-OG1.jpg"
               className="w-full shadow-2xl border-3 border-transparent rounded-xl"
               alt="DRIZLY"
               />  
+              </div>
+              
+
+              <dl className="grid grid-cols-1 gap-x-6 gap-y-5 sm:grid-cols-2 sm:gap-y-5 lg:gap-x-8">
+           
 
               {features.map((feature) => (
                 <div key={feature.name} className="border-t border-gray-200 pt-4">
