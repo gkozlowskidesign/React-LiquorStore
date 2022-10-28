@@ -1,7 +1,7 @@
 export default function Example() {
     return (
       <div className="relative overflow-hidden w-full h-screen py-2 px-2 bg-gradient-to-b from-black to-red-400 text-white">
-        <div className="pt-5 pb-20 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
+        <div className="pt-5 pb-20 sm:pt-24 sm:pb-20 lg:pt-40 lg:pb-20">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">
               <h1 className="font text-5xl font-bold tracking-tight text-white sm:text-8xl">Cindy's <span className="text-red-600">
