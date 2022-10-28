@@ -23,7 +23,7 @@ export default function Example() {
                   <div className="absolute transform sm:left-1/2 sm:top-0 sm:translate-x-8 lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:translate-x-8">
                     <div className="flex items-center space-x-6 lg:space-x-8">
                       <div className="grid flex-shrink-0 grid-cols-1 gap-y-4 lg:gap-y-6">
-                      <div className="h-80 w-70 overflow-hidden  hidden md:block rounded-xl">
+                      <div className="h-60 w-70 overflow-hidden  hidden md:block rounded-xl">
                           <img
                              src="https://images.pexels.com/photos/14103309/pexels-photo-14103309.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                              alt="Whiskey"
