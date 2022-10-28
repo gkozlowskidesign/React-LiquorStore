@@ -54,11 +54,13 @@ export default function Example() {
                             className="h-full w-full object-cover object-center border-3 border-transparent"
                           />
                         </div>
-                        <div className="h-86 w-68 overflow-hidden rounded-xl">
+                        <div className="h-84 w-64 overflow-hidden rounded-xl">
+                            <br/><br/>
+                          
                           <img
                             src="https://images.pexels.com/photos/774455/pexels-photo-774455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                             alt="Wine Cellar"
-                            className="h-full w-68 object-center border-3 border-transparent "
+                            className="h-full w-64 object-center border-3 border-transparent "
                           />
                         </div>
                       </div>
