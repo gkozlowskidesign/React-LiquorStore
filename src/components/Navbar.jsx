@@ -27,7 +27,7 @@ const [nav, setNav] = useState(false)
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiHomeAlt size={30} className='mr-4 text-red-300' />
                     <a href="#Home">Home</a></li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />
-                    <a href="#Learn-More">Learn More</a></li>
+                    <a href="#Learn-More">Background</a></li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiCartAlt size={30} className='mr-4  text-red-300' />
                     <a href="https://drizly.com/cindys-wine-and-spirits/s4712">Make An Order</a></li>
                 <li className='text-2xl py-4 pb-5 flex text-white'><BiCommentCheck size={30} className='mr-4  text-red-300' />
