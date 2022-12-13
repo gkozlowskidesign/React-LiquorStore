@@ -31,10 +31,6 @@ function App() {
           <Menu />
           <Contact />
           </Route>
-          <Route  path="/shopping">
-          <Hero />
-          <Shopping /> 
-          </Route>
           <Route  path="/wine">
           <Hero />
           <Order />
