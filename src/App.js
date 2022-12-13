@@ -13,7 +13,7 @@ import Contact from './components/Contact'
 import Beer from './components/Beer'
 import Wine from './components/Wine'
 import Liquor from './components/Liquor';
-import Shopping from './componets/Shopping';
+import Shopping from './components/Shopping';
 
 
 
@@ -31,9 +31,8 @@ function App() {
           <Menu />
           <Contact />
           </Route>
-           <Route  path="/order">
+          <Route  path="/shopping">
           <Hero />
-          <Order />
           <Shopping /> 
           </Route>
           <Route  path="/wine">
