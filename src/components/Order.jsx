@@ -8,7 +8,7 @@ export default function Example() {
           </h2>
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
-              <a href="/order" className="inline-flex items-center justify-center rounded-md border border-transparent'text-white bg-gradient-to-b from-red-400 to-red-900 px-5 py-3 text-base font-medium text-white  hover:bg-black">
+              <a href="https://drizly.com/cindys-wine-and-spirits/s4712" className="inline-flex items-center justify-center rounded-md border border-transparent'text-white bg-gradient-to-b from-red-400 to-red-900 px-5 py-3 text-base font-medium text-white  hover:bg-black">
                 Order Now
               </a>
             </div>
