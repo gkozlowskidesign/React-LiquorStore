@@ -2,7 +2,7 @@
 import React from 'react'
 
 
-const Beer = () => {
+const Shopping = () => {
   return (
 
     
@@ -20,4 +20,4 @@ const Beer = () => {
   )
 }
 
-export default Beer
+export default Shopping
