@@ -3,12 +3,12 @@
   export default function Example() {
     return (
 
-  <div id="Contact" className='w-full h-screen bg-black text-white'>
-        <div className='flex flex-col p-8 justify-center max-w-screen-lg mx-auto h-full'>
+  <div id="Contact" className='w-full bg-black text-white'>
+        <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto'>
             <br></br>
             <br></br>
             <br></br>
-            <div className='pb-8'>
+            <div className='pb-4'>
                 <p className='text-4xl font-bold inline border-b-4 border-red-500'>Menu</p>
                 <p className='py-6'>Click on a publication to here about our offerings</p>
             </div>
