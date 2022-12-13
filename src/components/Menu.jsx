@@ -8,12 +8,12 @@
         </div>
         <div class="bg-black rounded-xl">
             <div class="bg-black rounded-xl list-none text-center ">
-              <li class="py-3 bg-black ring-4 ring-black rounded-xl hover:bg-red-300">
-                <a href="/wine" class="list-none text-red-500">Wines</a></li>
-              <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl hover:bg-red-300">
-                <a href="/liquor" class="list-none text-red-500">Liquors</a></li>
-              <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl hover:bg-red-300">
-                <a href="/beer" class="list-none text-red-500">Beers</a></li>
+              <li class="py-3 bg-black ring-4 ring-black rounded-xl">
+                <a href="/wine" class="list-none text-red-500 hover:text-red-300">Wines</a></li>
+              <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
+                <a href="/liquor" class="list-none text-red-500 hover:text-red-300">Liquors</a></li>
+              <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
+                <a href="/beer" class="list-none text-red-500 hover:text-red-300">Beers</a></li>
             </div>
         </div>
     </div>
