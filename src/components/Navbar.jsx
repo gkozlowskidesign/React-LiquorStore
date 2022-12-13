@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BiMenu, BiCommentCheck, BiMap, BiX, BiNews, BiSupport, BiHomeAlt, BiShoppingBag, BiUserVoice, BiDrink } from "react-icons/bi";
+import {BiMenu, BiCommentCheck, BiMap, BiX,  BiSupport, BiHomeAlt } from "react-icons/bi";
 
 
 const Navbar = () => {
@@ -28,22 +28,6 @@ const [nav, setNav] = useState(false)
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiHomeAlt size={30} className='mr-4  text-red-400' />
                     <a href="/" className="mt-2 text-red-300 hover:text-white">Home</a></li>
-                      
-                    <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiShoppingBag size={30} className='mr-4  text-red-400' />
-                    <a href="/order" className="mt-2 text-red-300 hover:text-white">Order</a></li>
-                      
-                    <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiNews size={30} className='mr-4  text-red-400' />
-                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-white">About</a></li>
-                      
-                    <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiDrink size={30} className='mr-4  text-red-400' />
-                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-white">Selection</a></li>
-                      
-                    <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiUserVoice size={30} className='mr-4  text-red-400' />
-                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-white">Feedback</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiCommentCheck size={30} className='mr-4  text-red-400' />
