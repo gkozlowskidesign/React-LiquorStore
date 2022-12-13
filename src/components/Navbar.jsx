@@ -9,8 +9,8 @@ const [nav, setNav] = useState(false)
     <div className='bg-black max-w-[2640px] mx-auto flex justify-between items-center p-10'>
       {/* Left side */}
       <div className='flex items-center'>
-        <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500'>
-          <p className='ml-5'>Open</p>
+        <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500 hover:text-red-300'>
+          <p className='ml-4'>Open</p>
           <BiMenu className='ml-4' size={40}/>
         </div>
       </div>
@@ -18,8 +18,8 @@ const [nav, setNav] = useState(false)
 
       {/* Side drawer menu */}
       <div className={nav ? 'fixed rounded-xl ring-2 ring-red-300 top-10 left-22 w-[290px] h-screen bg-gradient-to-b from-black to-red-500 z-10 duration-300 rounded-xl' : 'fixed left-[-100%] bg-black z-10' }>
-      <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500'>
-          <p className='ml-5 mt-5'>Close</p>
+      <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500 hover:text-red-300'>
+          <p className='ml-4 mt-5'>Close</p>
           <BiX className='ml-4' size={40}/>
         </div>
  
