@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BiMenu, BiCommentCheck, BiMap, BiX, BiNews, BiSupport } from "react-icons/bi";
+import {BiMenu, BiCommentCheck, BiMap, BiX, BiNews, BiSupport, BiHomeAlt, BiShoppingBag, BiUserVoice, BiDrink } from "react-icons/bi";
 
 
 const Navbar = () => {
@@ -27,15 +27,15 @@ const [nav, setNav] = useState(false)
 
         <nav>
             <ul className='flex flex-col p-14 text-gray-800'>
-                    <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />
+                    <li className='text-2xl py-4 pb-5 flex text-white'><BiHomeAlt size={30} className='mr-4  text-red-300' />
                     <a href="/">Home</a></li>
-                    <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />
+                    <li className='text-2xl py-4 pb-5 flex text-white'><BiShoppingBag size={30} className='mr-4  text-red-300' />
                     <a href="/order">Order</a></li>
                     <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />
                     <a href="#Learn-More">About</a></li>
-                    <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />
-                    <a href="#Learn-More">Menu</a></li>
-                    <li className='text-2xl py-4 pb-5 flex text-white'><BiNews size={30} className='mr-4  text-red-300' />
+                    <li className='text-2xl py-4 pb-5 flex text-white'><BiDrink size={30} className='mr-4  text-red-300' />
+                    <a href="#Learn-More">Selection</a></li>
+                    <li className='text-2xl py-4 pb-5 flex text-white'><BiUserVoice size={30} className='mr-4  text-red-300' />
                     <a href="#Learn-More">Feedback</a></li>
                     <li className='text-2xl py-4 pb-5 flex text-white'><BiCommentCheck size={30} className='mr-4  text-red-300' />
                     <a href="https://linktr.ee/cindyswineandspirits">Connect</a></li>
