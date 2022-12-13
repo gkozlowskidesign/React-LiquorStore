@@ -16,7 +16,7 @@ const [nav, setNav] = useState(false)
       
 
       {/* Side drawer menu */}
-      <div className={nav ? 'fixed rounded-xl ring-4 ring-black top-10 left-22 w-[290px] h-screen bg-gradient-to-b from-black via-red-900 to-red-700 z-10 duration-300 rounded-xl' : 'fixed left-[-100%] bg-black z-10' }>
+      <div className={nav ? 'fixed rounded-xl ring-4 ring-red-300 top-10 left-22 w-[290px] h-screen bg-gradient-to-b from-black via-red-900 to-red-700 z-10 duration-300 rounded-xl' : 'fixed left-[-100%] bg-black z-10' }>
       <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500 hover:text-red-300'>
           <BiX className='ml-4' size={40}/>
         </div>
