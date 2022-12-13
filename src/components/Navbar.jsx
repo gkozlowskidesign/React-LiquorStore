@@ -10,7 +10,6 @@ const [nav, setNav] = useState(false)
       {/* Left side */}
       <div className='flex items-center'>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer text-white hover:text-red-500'>
-          <p className='ml-4'>Open</p>
           <BiMenu className='ml-4' size={40}/>
         </div>
       </div>
