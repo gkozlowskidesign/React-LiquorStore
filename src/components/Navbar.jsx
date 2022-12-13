@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BiCaretDownCircle, BiCommentCheck, BiMap, BiCaretUpCircle, BiNews, BiSupport } from "react-icons/bi";
+import {BiMenu, BiCommentCheck, BiMap, BiX, BiNews, BiSupport } from "react-icons/bi";
 
 
 const Navbar = () => {
@@ -11,7 +11,7 @@ const [nav, setNav] = useState(false)
       <div className='flex items-center'>
         <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500'>
           <p className='ml-5'>Open</p>
-          <BiCaretDownCircle className='ml-4' size={50}/>
+          <BiMenu className='ml-4' size={50}/>
         </div>
       </div>
       
@@ -20,7 +20,7 @@ const [nav, setNav] = useState(false)
       <div className={nav ? 'fixed rounded-xl ring-2 ring-red-300 top-10 left-22 w-[290px] h-screen bg-gradient-to-b from-black to-red-500 z-10 duration-300 rounded-xl' : 'fixed left-[-100%] bg-black z-10' }>
       <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500'>
           <p className='ml-5 mt-5'>Close</p>
-          <BiCaretUpCircle className='ml-4' size={50}/>
+          <BiX className='ml-4' size={50}/>
         </div>
  
    
