@@ -2,7 +2,7 @@
   
   export default function Example() {
     return (
-        <div class="bg-black sm:grid grid-cols-5 grid-rows-1 px-4 py-6 sm:gap-4">
+        <div class="mx-auto bg-black sm:grid grid-cols-5 grid-rows-1 px-4 py-6 sm:gap-4">
         <div class="col-span-4 bg-black rounded-xl ring-4 ring-black flex items-center mb-2">
         <h1 className="font text-4xl font-bold tracking-tight text-red-600 ">Menu</h1>
         </div>
