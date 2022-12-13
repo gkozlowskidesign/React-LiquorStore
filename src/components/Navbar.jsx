@@ -17,7 +17,7 @@ const [nav, setNav] = useState(false)
 
       {/* Side drawer menu */}
       <div className={nav ? 'fixed rounded-xl ring-4 ring-red-300 top-10 left-22 w-[290px] h-screen bg-gradient-to-b from-black via-red-900 to-red-700 z-10 duration-300 rounded-xl' : 'fixed left-[-100%] bg-black z-10' }>
-      <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500 hover:text-red-300'>
+      <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500 hover:text-white'>
           <BiX className='ml-4 mt-5' size={40}/>
         </div>
  
@@ -27,35 +27,35 @@ const [nav, setNav] = useState(false)
             <ul className='flex flex-col p-14 text-gray-800'>
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiHomeAlt size={30} className='mr-4  text-red-400' />
-                    <a href="/" className="mt-2 text-red-300 hover:text-red-200">Home</a></li>
+                    <a href="/" className="mt-2 text-red-300 hover:text-white">Home</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiShoppingBag size={30} className='mr-4  text-red-400' />
-                    <a href="/order" className="mt-2 text-red-300 hover:text-red-200">Order</a></li>
+                    <a href="/order" className="mt-2 text-red-300 hover:text-white">Order</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiNews size={30} className='mr-4  text-red-400' />
-                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-red-200">About</a></li>
+                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-white">About</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiDrink size={30} className='mr-4  text-red-400' />
-                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-red-200">Selection</a></li>
+                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-white">Selection</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiUserVoice size={30} className='mr-4  text-red-400' />
-                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-red-200">Feedback</a></li>
+                    <a href="#Learn-More" className="mt-2 text-red-300 hover:text-white">Feedback</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiCommentCheck size={30} className='mr-4  text-red-400' />
-                    <a href="https://linktr.ee/cindyswineandspirits" className="mt-2 text-red-300 hover:text-red-200">Connect</a></li>
+                    <a href="https://linktr.ee/cindyswineandspirits" className="mt-2 text-red-300 hover:text-white">Connect</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiMap size={30} className='mr-4  text-red-400' />
-                    <a href="https://goo.gl/maps/8Lpo34KA7kgbJgTj9" className="mt-2 text-red-300 hover:text-red-300">Location</a></li>
+                    <a href="https://goo.gl/maps/8Lpo34KA7kgbJgTj9" className="mt-2 text-red-300 hover:text-white">Location</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiSupport size={30} className='mr-4  text-red-400' />
-                    <a href="tel:(860) 399-0007" className="mt-2 text-red-300 hover:text-red-300">Call Us</a></li>
+                    <a href="tel:(860) 399-0007" className="mt-2 text-red-300 hover:text-white">Call Us</a></li>
 
             </ul>
         </nav>
