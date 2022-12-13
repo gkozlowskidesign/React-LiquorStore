@@ -2,7 +2,7 @@
   
   export default function Example() {
     return (
-      <div id="Learn-More" className="bg-gradient-to-b from-red-400 to-black">
+      <div id="Learn-More" className="bg-gradient-to-b from-red-500 to-black">
         <div className="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:flex lg:items-center lg:justify-between lg:py-16 lg:px-8">
            <div className="grid grid-cols-1 grid-rows-1 gap-2 mb-10">
                   <div className='pb-2'>
