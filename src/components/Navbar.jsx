@@ -28,36 +28,36 @@ const [nav, setNav] = useState(false)
         <nav>
             <ul className='flex flex-col p-14 text-gray-800'>
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiHomeAlt size={30} className='mr-4  text-red-300' />
+                      <BiHomeAlt size={30} className='mr-4  text-red-500 hover:text-red-300' />
                     <a href="/" className="mt-2">Home</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiShoppingBag size={30} className='mr-4  text-red-300' />
-                    <a href="/order">Order</a></li>
+                      <BiShoppingBag size={30} className='mr-4  text-red-500 hover:text-red-300' />
+                    <a href="/order" className="mt-2>Order</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiNews size={30} className='mr-4  text-red-300' />
-                    <a href="#Learn-More">About</a></li>
+                      <BiNews size={30} className='mr-4  text-red-500 hover:text-red-300' />
+                    <a href="#Learn-More" className="mt-2>About</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiDrink size={30} className='mr-4  text-red-300' />
-                    <a href="#Learn-More">Selection</a></li>
+                      <BiDrink size={30} className='mr-4  text-red-500 hover:text-red-300' />
+                    <a href="#Learn-More" className="mt-2>Selection</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiUserVoice size={30} className='mr-4  text-red-300' />
-                    <a href="#Learn-More">Feedback</a></li>
+                      <BiUserVoice size={30} className='mr-4  text-red-500 hover:text-red-300' />
+                    <a href="#Learn-More" className="mt-2>Feedback</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiCommentCheck size={30} className='mr-4  text-red-300' />
-                    <a href="https://linktr.ee/cindyswineandspirits">Connect</a></li>
+                      <BiCommentCheck size={30} className='mr-4  text-red-500 hover:text-red-300' />
+                    <a href="https://linktr.ee/cindyswineandspirits" className="mt-2>Connect</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiMap size={30} className='mr-4  text-red-300' />
-                    <a href="https://goo.gl/maps/8Lpo34KA7kgbJgTj9">Location</a></li>
+                      <BiMap size={30} className='mr-4  text-red-500 hover:text-red-300' />
+                    <a href="https://goo.gl/maps/8Lpo34KA7kgbJgTj9" className="mt-2>Location</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
-                      <BiSupport size={30} className='mr-4  text-red-300' />
-                    <a href="tel:(860) 399-0007">Call Us</a></li>
+                      <BiSupport size={30} className='mr-4  text-red-500 hover:text-red-300' />
+                    <a href="tel:(860) 399-0007" className="mt-2>Call Us</a></li>
 
             </ul>
         </nav>
