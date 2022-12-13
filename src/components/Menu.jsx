@@ -6,8 +6,8 @@
         <div class="col-span-4 bg-black rounded-xl ring-4 ring-black flex items-center mb-2">
         <h1 className="font text-4xl font-bold tracking-tight text-red-600 ">Menu</h1>
         </div>
-        <div class="bg-black rounded-xl">
-            <div class="bg-black rounded-xl list-none text-center ">
+        <div class="bg-black rounded-xl mx-auto p-8">
+            <div class="bg-black rounded-xl list-none text-center mx-auto">
               <li class="py-3 bg-black ring-4 ring-black rounded-xl">
                 <a href="/wine" class="list-none text-red-500 hover:text-red-300">Wines</a></li>
               <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
