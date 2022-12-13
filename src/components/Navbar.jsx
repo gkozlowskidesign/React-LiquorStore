@@ -31,7 +31,7 @@ const [nav, setNav] = useState(false)
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiCartAlt size={30} className='mr-4  text-white' />
-                    <a href="/shopping" className="mt-2 text-xl text-white hover:text-red-300">Order</a></li>
+                    <a href="https://drizly.com/cindys-wine-and-spirits/s4712" className="mt-2 text-xl text-white hover:text-red-300">Order</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiCommentCheck size={30} className='mr-4  text-white' />
