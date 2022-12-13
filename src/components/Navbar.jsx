@@ -9,7 +9,7 @@ const [nav, setNav] = useState(false)
     <div className='bg-black max-w-[2640px] mx-auto flex justify-between items-center p-10'>
       {/* Left side */}
       <div className='flex items-center'>
-        <div onClick={()=> setNav(!nav)} className='cursor-pointer text-red-500 hover:text-red-300'>
+        <div onClick={()=> setNav(!nav)} className='cursor-pointer text-white hover:text-red-500'>
           <p className='ml-4'>Open</p>
           <BiMenu className='ml-4' size={40}/>
         </div>
