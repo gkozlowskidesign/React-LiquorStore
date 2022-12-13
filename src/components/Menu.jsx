@@ -5,7 +5,7 @@ const products = [
         name: 'Wine Selection',
         href: '/wine',
         type: 'wine',
-        imageSrc: 'https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/305204076_445573760926519_4718150325861769894_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TdP1AmpfGN4AX8QJTzk&_nc_ht=scontent-bos5-1.xx&oh=00_AfBG2wlG0qNbY6AVjrwbb-BVetzxO1k4KnsqWjkAcNUZaw&oe=639C82BD',
+        imageSrc: 'https://github.com/gkozlowskidesign/React-LiquorStore/blob/codespace-gkozlowskidesign-cindys-update-1/Screen%20Shot%202022-09-23%20at%204.04.59%20PM.png?raw=true',
         imageAlt: 'Cindys Wine and Spirits',
       },
       {
@@ -13,7 +13,7 @@ const products = [
         name: 'Beer Selection',
         href: '/beer',
         type: 'beer',
-        imageSrc: 'https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/305204076_445573760926519_4718150325861769894_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TdP1AmpfGN4AX8QJTzk&_nc_ht=scontent-bos5-1.xx&oh=00_AfBG2wlG0qNbY6AVjrwbb-BVetzxO1k4KnsqWjkAcNUZaw&oe=639C82BD',
+        imageSrc: 'https://github.com/gkozlowskidesign/React-LiquorStore/blob/codespace-gkozlowskidesign-cindys-update-1/Screen%20Shot%202022-09-23%20at%204.04.59%20PM.png?raw=true',
         imageAlt: 'Cindys Wine and Spirits',
       },
       {
@@ -21,7 +21,7 @@ const products = [
         name: 'Liquor Selection',
         href: '/liquor',
         type: 'liquor',
-        imageSrc: 'https://scontent-bos5-1.xx.fbcdn.net/v/t39.30808-6/305204076_445573760926519_4718150325861769894_n.png?_nc_cat=105&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TdP1AmpfGN4AX8QJTzk&_nc_ht=scontent-bos5-1.xx&oh=00_AfBG2wlG0qNbY6AVjrwbb-BVetzxO1k4KnsqWjkAcNUZaw&oe=639C82BD',
+        imageSrc: 'https://github.com/gkozlowskidesign/React-LiquorStore/blob/codespace-gkozlowskidesign-cindys-update-1/Screen%20Shot%202022-09-23%20at%204.04.59%20PM.png?raw=true',
         imageAlt: 'Cindys Wine and Spirits',
       },
     // More products...
