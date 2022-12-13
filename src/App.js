@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-// CTA Website Content 
+
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Order from './components/Order'
@@ -9,7 +9,7 @@ import About from './components/About'
 import Menu from './components/Menu'
 import Contact from './components/Contact'
 
-// Menu Website Content (Iframes)
+
 import Beer from './components/Beer'
 import Wine from './components/Wine'
 import Liquor from './components/Liquor';
