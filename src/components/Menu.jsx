@@ -35,7 +35,7 @@ return (
 <div id="Contact" className='w-full bg-black text-white'>
       <div className='flex flex-col p-4 justify-center max-w-screen-lg mx-auto'>
         <div className='pb-2'>
-            <p className='text-4xl font-bold inline border-b-4 border-red-500'>Menu</p>
+            <p className='text-4xl font-bold inline border-b-4 border-red-400'>Menu</p>
             <p className='py-6'>Click on our collectible NFT publications to learn about our offerings</p>
         </div>
       
