@@ -13,7 +13,7 @@
                   </div>
                   <div className='pb-2 mt-4'>
                     <p className='text-4xl text-white font-bold inline border-b-4 border-red-500'>History</p>
-                    <p className='py-6'>On September 8th 2022 we closed our doors at 688 Boston Post Rd, Westbrook Connecticut and moved to our newly built store location at 1238 Boston Post Rd, Westbrook Connecticut. 
+                    <p className='py-6 text-white'>On September 8th 2022 we closed our doors at 688 Boston Post Rd, Westbrook Connecticut and moved to our newly built store location at 1238 Boston Post Rd, Westbrook Connecticut. 
                     Our new location opened its doors on September 13th 2022 in the heart of Westbrook right down the street from the green and in our beautiful new shop.</p>
                   </div>
            </div>
