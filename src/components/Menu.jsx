@@ -16,12 +16,12 @@
             <div className='flex justify-center items-center'>
              <div class="bg-black rounded-xl mx-auto p-8">
                     <div class="bg-black rounded-xl list-none text-center mx-auto">
-                      <li class="py-3 bg-black ring-4 ring-black rounded-xl">
-                        <a href="/wine" class="list-none text-red-500 hover:text-red-300">Wines</a></li>
+                      <li class="py-8 bg-black ring-4 ring-white rounded-xl">
+                        <a href="/wine" class="list-none text-2xl text-red-500 hover:text-red-300">Wines</a></li>
                       <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
-                        <a href="/liquor" class="list-none text-red-500 hover:text-red-300">Liquors</a></li>
+                        <a href="/liquor" class="list-none text-2xl text-red-500 hover:text-red-300">Liquors</a></li>
                       <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
-                        <a href="/beer" class="list-none text-red-500 hover:text-red-300">Beers</a></li>
+                        <a href="/beer" class="list-none text-2xl text-red-500 hover:text-red-300">Beers</a></li>
                     </div>
                 </div>
             </div>
