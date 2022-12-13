@@ -27,19 +27,19 @@ const [nav, setNav] = useState(false)
             <ul className='flex flex-col p-14 text-gray-800'>
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiHomeAlt size={30} className='mr-4  text-white' />
-                    <a href="/" className="mt-2 text-xl text-red-300 hover:text-white">Home</a></li>
+                    <a href="/" className="mt-2 text-xl text-white hover:text-red-300">Home</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiCommentCheck size={30} className='mr-4  text-white' />
-                    <a href="https://linktr.ee/cindyswineandspirits" className="mt-2 text-red-300 hover:text-white">Connect</a></li>
+                    <a href="https://linktr.ee/cindyswineandspirits" className="mt-2 text-xl text-white hover:text-red-300">Connect</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiMap size={30} className='mr-4 text-white' />
-                    <a href="https://goo.gl/maps/8Lpo34KA7kgbJgTj9" className="mt-2 text-red-300 hover:text-white">Location</a></li>
+                    <a href="https://goo.gl/maps/8Lpo34KA7kgbJgTj9" className="mt-2 text-xl text-white hover:text-red-300">Location</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiSupport size={30} className='mr-4  text-white' />
-                    <a href="tel:(860) 399-0007" className="mt-2 text-red-300 hover:text-white">Call Us</a></li>
+                    <a href="tel:(860) 399-0007" className="mt-2 text-xl text-white hover:text-red-300">Call Us</a></li>
 
             </ul>
         </nav>
