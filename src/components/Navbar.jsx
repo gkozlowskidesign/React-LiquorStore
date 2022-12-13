@@ -29,7 +29,7 @@ const [nav, setNav] = useState(false)
             <ul className='flex flex-col p-14 text-gray-800'>
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiHomeAlt size={30} className='mr-4  text-red-300' />
-                    <a href="/">Home</a></li>
+                    <a href="/" className="mt-2">Home</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiShoppingBag size={30} className='mr-4  text-red-300' />
