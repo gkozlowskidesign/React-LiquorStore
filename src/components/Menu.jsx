@@ -4,7 +4,7 @@
     return (
         <div class="bg-black sm:grid grid-cols-5 grid-rows-1 px-4 py-6 sm:gap-4">
         <div class="col-span-4 bg-black rounded-xl ring-4 ring-black flex items-center mb-2">
-        <h1 className="font text-5xl font-bold tracking-tight text-red-600 sm:text-7xl">View Selection</h1>
+        <h1 className="font text-5xl font-bold tracking-tight text-red-600 sm:text-7xl">Menu</h1>
         </div>
         <div class="bg-black rounded-xl">
             <div class="bg-black rounded-xl list-none text-center ">
