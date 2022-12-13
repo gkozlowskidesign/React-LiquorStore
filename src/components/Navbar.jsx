@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {BiMenu, BiCommentCheck, BiMap, BiX,  BiSupport, BiHomeAlt } from "react-icons/bi";
+import {BiMenu, BiCommentCheck, BiMap, BiX,  BiSupport, BiHomeAlt, BiCartAlt } from "react-icons/bi";
 
 
 const Navbar = () => {
@@ -21,13 +21,17 @@ const [nav, setNav] = useState(false)
           <BiX className='ml-4 mt-5' size={40}/>
         </div>
  
-   
+ 
 
         <nav>
             <ul className='flex flex-col p-14 text-gray-800'>
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiHomeAlt size={30} className='mr-4  text-white' />
                     <a href="/" className="mt-2 text-xl text-white hover:text-red-300">Home</a></li>
+                      
+                    <li className='text-1xl py-4 pb-5 flex text-white'>
+                      <BiCartAlt size={30} className='mr-4  text-white' />
+                    <a href="/order" className="mt-2 text-xl text-white hover:text-red-300">Home</a></li>
                       
                     <li className='text-1xl py-4 pb-5 flex text-white'>
                       <BiCommentCheck size={30} className='mr-4  text-white' />
