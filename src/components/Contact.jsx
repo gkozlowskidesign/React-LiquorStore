@@ -8,7 +8,7 @@ const Contact = () => {
             <br></br>
             <br></br>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-red-500'>Contact</p>
+                <p className='text-4xl font-bold inline border-b-4 border-red-400'>Contact</p>
                 <p className='py-6'>Submit the form below to get in touch with me</p>
             </div>
 
