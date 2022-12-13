@@ -13,7 +13,6 @@ import Contact from './components/Contact'
 import Beer from './components/Beer'
 import Wine from './components/Wine'
 import Liquor from './components/Liquor';
-import Shopping from './components/Shopping';
 
 
 
