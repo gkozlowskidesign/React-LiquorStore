@@ -2,20 +2,31 @@
   
   export default function Example() {
     return (
-        <div class="mx-auto bg-black grid grid-cols-4 grid-rows-1 px-8 py-6 gap-4">
-        <div class="col-span-4 bg-black rounded-xl ring-4 ring-black flex items-center mb-2">
-        <h1 className="font text-4xl font-bold tracking-tight text-red-600 ">Menu</h1>
-        </div>
-        <div class="bg-black rounded-xl mx-auto p-8">
-            <div class="bg-black rounded-xl list-none text-center mx-auto">
-              <li class="py-3 bg-black ring-4 ring-black rounded-xl">
-                <a href="/wine" class="list-none text-red-500 hover:text-red-300">Wines</a></li>
-              <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
-                <a href="/liquor" class="list-none text-red-500 hover:text-red-300">Liquors</a></li>
-              <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
-                <a href="/beer" class="list-none text-red-500 hover:text-red-300">Beers</a></li>
+
+  <div id="Contact" className='w-full h-screen bg-black text-white'>
+        <div className='flex flex-col p-8 justify-center max-w-screen-lg mx-auto h-full'>
+            <br></br>
+            <br></br>
+            <br></br>
+            <div className='pb-8'>
+                <p className='text-4xl font-bold inline border-b-4 border-red-500'>Menu</p>
+                <p className='py-6'>Click on a publication to here about our offerings</p>
             </div>
+
+            <div className='flex justify-center items-center'>
+             <div class="bg-black rounded-xl mx-auto p-8">
+                    <div class="bg-black rounded-xl list-none text-center mx-auto">
+                      <li class="py-3 bg-black ring-4 ring-black rounded-xl">
+                        <a href="/wine" class="list-none text-red-500 hover:text-red-300">Wines</a></li>
+                      <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
+                        <a href="/liquor" class="list-none text-red-500 hover:text-red-300">Liquors</a></li>
+                      <li class="py-3 mt-1 bg-black ring-4 ring-black rounded-xl">
+                        <a href="/beer" class="list-none text-red-500 hover:text-red-300">Beers</a></li>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
-    )
-  }
+  )
+}
