@@ -1,16 +1,19 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-
+// CTA Website Content 
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
-import About from './components/About'
 import Order from './components/Order'
-import Contact from './components/Contact'
+import About from './components/About'
 import Menu from './components/Menu'
+import Contact from './components/Contact'
+
+// Menu Website Content (Iframes)
 import Beer from './components/Beer'
 import Wine from './components/Wine'
 import Liquor from './components/Liquor';
+import Shopping from './componets/Shopping';
 
 
 
@@ -27,6 +30,11 @@ function App() {
           <About />
           <Menu />
           <Contact />
+          </Route>
+           <Route  path="/order">
+          <Hero />
+          <Order />
+          <Shopping /> 
           </Route>
           <Route  path="/wine">
           <Hero />
