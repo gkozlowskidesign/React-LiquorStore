@@ -29,13 +29,19 @@ function App() {
           <Contact />
           </Route>
           <Route  path="/wine">
-          <Wine/> 
+          <Hero />
+          <Order />
+          <Wine /> 
           </Route>
           <Route  path="/beer">
-          <Beer/>
+          <Hero />
+          <Order />      
+          <Beer />
           </Route>
           <Route  path="/liquor">
-          <Liquor/>
+          <Hero />
+          <Order />      
+          <Liquor />
           </Route>
       </Switch>
       </div>
