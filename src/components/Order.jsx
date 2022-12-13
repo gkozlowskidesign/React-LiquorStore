@@ -9,18 +9,10 @@ export default function Example() {
           <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
             <div className="inline-flex rounded-md shadow">
               <a
-                href="https://drizly.com/cindys-wine-and-spirits/s4712"
+                href="/order"
                 className="inline-flex items-center justify-center rounded-md border border-transparent'text-white bg-gradient-to-b from-red-400 to-red-900 px-5 py-3 text-base font-medium text-white  hover:bg-black"
               >
                 Order Now
-              </a>
-            </div>
-            <div className="ml-3 inline-flex rounded-md shadow">
-              <a
-                href="https://drizly.com/"
-                className="inline-flex items-center justify-center rounded-md border border-transparent'text-white bg-gradient-to-b from-red-300 to-red-600 px-5 py-3 text-base font-medium text-white hover:bg-black"
-              >
-                Learn more
               </a>
             </div>
           </div>
