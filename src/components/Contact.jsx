@@ -38,7 +38,7 @@ const Contact = () => {
 
                     <button 
                     className='text-white bg-gradient-to-b from-red-400 to-red-900 px-6 py-3 my-8 mx-auto flex-items-center rounded-md hover:scale-110 duartion-300'>
-                        Let's Talk!
+                        Give Feedback!
                     </button>
                     <br></br>
                     <br></br>
