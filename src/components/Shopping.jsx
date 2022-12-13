@@ -11,7 +11,7 @@ const Shopping = () => {
      <div className='w-full h-100 p-2 pb-10 mx-auto bg-white'>
             <section className='mt-2 flex flex-col justify-center gap-2'>
                   <div className="flex flex-wrap">
-                    <iframe className='mb-2' src="https://drizly.com/cindys-wine-and-spirits/s4712" name="iframe_a" scrolling="no" height="2800rem" width="100%" title="Iframe Example"></iframe>
+     <iframe is="x-frame-bypass" src="https://drizly.com/cindys-wine-and-spirits/s4712" scrolling="no" height="2800rem" width="100%" title="Iframe Example"></iframe>
                    </div>
             </section>
     </div>
